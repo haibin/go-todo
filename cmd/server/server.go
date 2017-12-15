@@ -2,7 +2,7 @@ package main
 
 import (
 	"errors"
-	"github.com/benschw/go-todo/service"
+	"github.com/haibin/go-todo/service"
 	"github.com/codegangsta/cli"
 	"gopkg.in/yaml.v1"
 	"io/ioutil"

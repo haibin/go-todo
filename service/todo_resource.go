@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/benschw/go-todo/api"
+	"github.com/haibin/go-todo/api"
 	"github.com/gin-gonic/gin"
 	"github.com/jinzhu/gorm"
 	"log"
@@ -10,7 +10,7 @@ import (
 )
 
 type TodoResource struct {
-	db gorm.DB
+	db *gorm.DB
 }
 
 func (tr *TodoResource) CreateTodo(c *gin.Context) {

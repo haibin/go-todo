@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/benschw/go-todo/api"
-	"github.com/benschw/go-todo/client"
+	"github.com/haibin/go-todo/api"
+	"github.com/haibin/go-todo/client"
 	"log"
 	"reflect"
 	"testing"

@@ -1,7 +1,7 @@
 package client
 
 import (
-	"github.com/benschw/go-todo/api"
+	"github.com/haibin/go-todo/api"
 	"log"
 	"strconv"
 )
